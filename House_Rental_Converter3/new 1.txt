@@ -1,0 +1,22 @@
+https://learn.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer
+
+//the following commands are good
+
+
+1)InstallUtil.exe /uninstall Z:\VisualStudio\P.Mosavi\House_Rental_Converter3\House_Rental_Converter3\bin\x64\Release\MyNewService.exe
+
+2)InstallUtil.exe Z:\VisualStudio\P.Mosavi\House_Rental_Converter3\House_Rental_Converter3\bin\x64\Release\MyNewService.exe
+
+____________________________________________________
+// the  good command promt ,as admin,for deleting a service shown in task manager 
+
+sc delete Service1   
+sc delete Z_service
+sc delete Service1000
+sc delete pocon
+sc delete MyService
+
+sc delete WindowsService1
+sc delete WindowsService2
+sc delete WindowsService3
+sc delete WindowsService4
